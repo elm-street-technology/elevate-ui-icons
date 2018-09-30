@@ -1,0 +1,61 @@
+{
+  "name": "elevate-ui-icons",
+  "version": "0.0.1",
+  "description": "Custom and material design icons for usage with Elevate-UI",
+  "homepage": "https://elevate-ui.com/",
+  "main": "./index.js",
+  "private": false,
+  "sideEffects": false,
+  "scripts": {
+    "build": "yarn babel src --out-dir .",
+    "clean": "node util/clean.js",
+    "demo": "yarn generate-docs && cd demo && yarn start",
+    "icon-party": "node util/build-rmdi.js",
+    "lint": "eslint src/**/*.js",
+    "prepublish": "yarn clean && yarn build",
+    "prettier": "prettier --write '**/*.{js,json,css,md}'",
+    "watch": "yarn babel --watch src --out-dir ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "react": "^16.5.0"
+  },
+  "peerDependencies": {
+    "react": ">16.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-0",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.46.3",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.7.0",
+    "husky": "^1.0.1",
+    "lint-staged": "^7.3.0",
+    "material-design-icons": "^3.0.1",
+    "pixo": "^1.1.0",
+    "prettier": "^1.14.3",
+    "recursive-readdir": "^2.2.2"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "ui",
+    "material",
+    "icons"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elm-street-technology/elevate-ui-icons"
+  }
+}

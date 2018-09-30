@@ -1,0 +1,21 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# directories
+
+/*
+!/src
+!/util
+/index.js
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+yarn-error.log
+
+# lockfiles
+# yarn.lock
+package-lock.json
+
+# programmatically generated files
+util/svg/*
