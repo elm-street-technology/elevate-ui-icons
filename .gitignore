@@ -1,11 +1,10 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# directories
+# babel transpiles to root directory, so we'll ignore all js files
+/*.js
 
-/*
-!/src
-!/util
-/index.js
+# directories
+node_modules
 
 # misc
 .DS_Store
