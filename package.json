@@ -1,6 +1,6 @@
 {
   "name": "elevate-ui-icons",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Custom and material design icons for usage with Elevate-UI",
   "homepage": "https://elevate-ui.com/",
   "main": "./index.js",
