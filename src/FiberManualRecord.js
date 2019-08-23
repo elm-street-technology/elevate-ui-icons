@@ -2,7 +2,7 @@ import React from "react";
 
 const FiberManualRecord = ({ size, color, ...props }) => (
   <svg {...props} viewBox="0 0 24 24" width={size} height={size} fill={color}>
-    <path d="M 12 4 A 8 8 0 0 1 12 20 A 8 8 0 0 1 12 4" />
+    <path d="M 12 4 A 8 8 0 0 0 12 20 A 8 8 0 0 0 12 4" />
   </svg>
 );
 
