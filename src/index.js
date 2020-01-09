@@ -23,20 +23,12 @@ export { default as Adjust } from "./Adjust";
 export { default as AddShoppingCart } from "./AddShoppingCart";
 export { default as AirlineSeatFlat } from "./AirlineSeatFlat";
 export { default as AirlineSeatFlatAngled } from "./AirlineSeatFlatAngled";
-export {
-  default as AirlineSeatIndividualSuite,
-} from "./AirlineSeatIndividualSuite";
+export { default as AirlineSeatIndividualSuite } from "./AirlineSeatIndividualSuite";
 export { default as AirlineSeatLegroomExtra } from "./AirlineSeatLegroomExtra";
-export {
-  default as AirlineSeatLegroomNormal,
-} from "./AirlineSeatLegroomNormal";
-export {
-  default as AirlineSeatLegroomReduced,
-} from "./AirlineSeatLegroomReduced";
+export { default as AirlineSeatLegroomNormal } from "./AirlineSeatLegroomNormal";
+export { default as AirlineSeatLegroomReduced } from "./AirlineSeatLegroomReduced";
 export { default as AirlineSeatReclineExtra } from "./AirlineSeatReclineExtra";
-export {
-  default as AirlineSeatReclineNormal,
-} from "./AirlineSeatReclineNormal";
+export { default as AirlineSeatReclineNormal } from "./AirlineSeatReclineNormal";
 export { default as AirplanemodeActive } from "./AirplanemodeActive";
 export { default as Airplay } from "./Airplay";
 export { default as AirportShuttle } from "./AirportShuttle";
@@ -746,9 +738,7 @@ export { default as Send } from "./Send";
 export { default as SentimentDissatisfied } from "./SentimentDissatisfied";
 export { default as SentimentNeutral } from "./SentimentNeutral";
 export { default as SentimentSatisfied } from "./SentimentSatisfied";
-export {
-  default as SentimentVeryDissatisfied,
-} from "./SentimentVeryDissatisfied";
+export { default as SentimentVeryDissatisfied } from "./SentimentVeryDissatisfied";
 export { default as SentimentVerySatisfied } from "./SentimentVerySatisfied";
 export { default as Settings } from "./Settings";
 export { default as SettingsApplications } from "./SettingsApplications";
@@ -781,21 +771,11 @@ export { default as SignalCellular0Bar } from "./SignalCellular0Bar";
 export { default as SignalCellular2Bar } from "./SignalCellular2Bar";
 export { default as SignalCellular4Bar } from "./SignalCellular4Bar";
 export { default as SignalCellular3Bar } from "./SignalCellular3Bar";
-export {
-  default as SignalCellularConnectedNoInternet0Bar,
-} from "./SignalCellularConnectedNoInternet0Bar";
-export {
-  default as SignalCellularConnectedNoInternet1Bar,
-} from "./SignalCellularConnectedNoInternet1Bar";
-export {
-  default as SignalCellularConnectedNoInternet2Bar,
-} from "./SignalCellularConnectedNoInternet2Bar";
-export {
-  default as SignalCellularConnectedNoInternet4Bar,
-} from "./SignalCellularConnectedNoInternet4Bar";
-export {
-  default as SignalCellularConnectedNoInternet3Bar,
-} from "./SignalCellularConnectedNoInternet3Bar";
+export { default as SignalCellularConnectedNoInternet0Bar } from "./SignalCellularConnectedNoInternet0Bar";
+export { default as SignalCellularConnectedNoInternet1Bar } from "./SignalCellularConnectedNoInternet1Bar";
+export { default as SignalCellularConnectedNoInternet2Bar } from "./SignalCellularConnectedNoInternet2Bar";
+export { default as SignalCellularConnectedNoInternet4Bar } from "./SignalCellularConnectedNoInternet4Bar";
+export { default as SignalCellularConnectedNoInternet3Bar } from "./SignalCellularConnectedNoInternet3Bar";
 export { default as SignalCellularNoSim } from "./SignalCellularNoSim";
 export { default as SignalCellularNull } from "./SignalCellularNull";
 export { default as SignalCellularOff } from "./SignalCellularOff";
@@ -808,40 +788,18 @@ export { default as SignalWifi3Bar } from "./SignalWifi3Bar";
 export { default as SignalWifi3BarLock } from "./SignalWifi3BarLock";
 export { default as SignalWifi4Bar } from "./SignalWifi4Bar";
 export { default as SignalWifi4BarLock } from "./SignalWifi4BarLock";
-export {
-  default as SignalWifiStatusbar1Bar26X24Px,
-} from "./SignalWifiStatusbar1Bar26X24Px";
+export { default as SignalWifiStatusbar1Bar26X24Px } from "./SignalWifiStatusbar1Bar26X24Px";
 export { default as SignalWifiOff } from "./SignalWifiOff";
-export {
-  default as SignalWifiStatusbar2Bar26X24Px,
-} from "./SignalWifiStatusbar2Bar26X24Px";
-export {
-  default as SignalWifiStatusbar3Bar26X24Px,
-} from "./SignalWifiStatusbar3Bar26X24Px";
-export {
-  default as SignalWifiStatusbar4Bar26X24Px,
-} from "./SignalWifiStatusbar4Bar26X24Px";
-export {
-  default as SignalWifiStatusbarConnectedNoInternet126X24Px,
-} from "./SignalWifiStatusbarConnectedNoInternet126X24Px";
-export {
-  default as SignalWifiStatusbarConnectedNoInternet226X24Px,
-} from "./SignalWifiStatusbarConnectedNoInternet226X24Px";
-export {
-  default as SignalWifiStatusbarConnectedNoInternet26X24Px,
-} from "./SignalWifiStatusbarConnectedNoInternet26X24Px";
-export {
-  default as SignalWifiStatusbarConnectedNoInternet326X24Px,
-} from "./SignalWifiStatusbarConnectedNoInternet326X24Px";
-export {
-  default as SignalWifiStatusbarConnectedNoInternet426X24Px,
-} from "./SignalWifiStatusbarConnectedNoInternet426X24Px";
-export {
-  default as SignalWifiStatusbarNotConnected26X24Px,
-} from "./SignalWifiStatusbarNotConnected26X24Px";
-export {
-  default as SignalWifiStatusbarNull26X24Px,
-} from "./SignalWifiStatusbarNull26X24Px";
+export { default as SignalWifiStatusbar2Bar26X24Px } from "./SignalWifiStatusbar2Bar26X24Px";
+export { default as SignalWifiStatusbar3Bar26X24Px } from "./SignalWifiStatusbar3Bar26X24Px";
+export { default as SignalWifiStatusbar4Bar26X24Px } from "./SignalWifiStatusbar4Bar26X24Px";
+export { default as SignalWifiStatusbarConnectedNoInternet126X24Px } from "./SignalWifiStatusbarConnectedNoInternet126X24Px";
+export { default as SignalWifiStatusbarConnectedNoInternet226X24Px } from "./SignalWifiStatusbarConnectedNoInternet226X24Px";
+export { default as SignalWifiStatusbarConnectedNoInternet26X24Px } from "./SignalWifiStatusbarConnectedNoInternet26X24Px";
+export { default as SignalWifiStatusbarConnectedNoInternet326X24Px } from "./SignalWifiStatusbarConnectedNoInternet326X24Px";
+export { default as SignalWifiStatusbarConnectedNoInternet426X24Px } from "./SignalWifiStatusbarConnectedNoInternet426X24Px";
+export { default as SignalWifiStatusbarNotConnected26X24Px } from "./SignalWifiStatusbarNotConnected26X24Px";
+export { default as SignalWifiStatusbarNull26X24Px } from "./SignalWifiStatusbarNull26X24Px";
 export { default as SimCard } from "./SimCard";
 export { default as SimCardAlert } from "./SimCardAlert";
 export { default as SkipNext } from "./SkipNext";
